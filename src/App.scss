@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap");
+@import "./styles/global.scss";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.app {
+  position: relative;
+  overflow-x: hidden;
+}
+
+// .main {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+@media (max-width: $media-md) {
+  .carousel {
+    .carousel-caption {
+      top: 30%;
+    }
+  }
+}

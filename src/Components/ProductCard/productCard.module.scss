@@ -1,0 +1,34 @@
+@import "../../styles/global.scss";
+
+.cardImg {
+  cursor: pointer;
+  max-height: 150px;
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.productCard {
+  position: relative;
+  min-height: 300px;
+  transition: all 0.5s ease-out;
+  box-shadow: 1px 1px 10px #d3d3d3;
+  border: none !important;
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in;
+  }
+}
+
+.commonBtn {
+  background-color: $nevyBlue !important;
+  border: none !important;
+  color: $white !important;
+  position: absolute;
+  bottom: 20px;
+  right: 85px;
+
+  &:hover {
+    background-color: $skyBlue !important;
+  }
+}

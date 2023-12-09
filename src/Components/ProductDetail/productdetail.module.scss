@@ -1,0 +1,94 @@
+@import "../../styles/global.scss";
+
+
+.detailWrapper {
+  margin-top: 80px;
+  min-height: 100vh;
+}
+
+.mainDetailWrapper {
+  display: flex;
+  gap: 50px;
+
+  :global {
+    .btn {
+      background-color: $skyBlue;
+      border: none;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: $nevyBlue;
+      }
+    }
+  }
+}
+
+.imageWrapper {
+  :global {
+    img {
+      transition: 0.4s ease-in;
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.4s ease-in-out;
+      }
+    }
+  }
+}
+
+.productSliderWrapper {
+  padding: 50px 0 30px;
+
+  :global {
+    .rec-pagination {
+      display: none;
+    }
+
+    .rec-carousel {
+      .rec-arrow {
+        font-size: 16px;
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        line-height: 35px;
+
+        &:hover {
+          background-color: $nevyBlue;
+        }
+      }
+    }
+
+    .card {
+      border: none;
+    }
+  }
+}
+
+@media (max-width: $media-md) {
+  .detailWrapper {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .mainDetailWrapper {
+    :global {
+      .btn {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .mainDetailWrapper {
+    flex-direction: column;
+    padding: 0 25px 30px;
+    text-align: left;
+
+    :global {
+      h4,
+      h5,
+      h6,
+      p {
+        text-align: left;
+      }
+    }
+  }
+}

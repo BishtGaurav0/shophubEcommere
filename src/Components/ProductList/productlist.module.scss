@@ -1,0 +1,76 @@
+@import "../../styles/global.scss";
+
+.productListWrapper {
+  background-color: #ffdbac;
+  padding: 50px 0;
+
+  :global {
+    .loadBtn {
+      background-color: $nevyBlue;
+      border: none;
+      color: $white;
+      padding: 10px 25px;
+    }
+  }
+}
+
+.categorySelector {
+  max-width: 290px;
+  margin-left: auto;
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  gap: 40px;
+  padding-top: 30px;
+}
+
+.searchBar {
+  border-radius: 5px;
+  border-color: $black;
+  padding: 3px 10px;
+  margin-right: 5px;
+  transition: 0.5s ease-in-out;
+  outline: none;
+}
+
+.searchWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: $media-md) {
+  .productList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .searchWrapper {
+    flex-direction: column;
+  }
+
+  .categorySelector {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: $media-lg) {
+  .productList {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .searchWrapper {
+    flex-direction: column;
+    align-items: start;
+  }
+}

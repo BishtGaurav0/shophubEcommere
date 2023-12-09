@@ -1,0 +1,11 @@
+@import "../../styles/global.scss";
+
+@media (max-width: $media-md) {
+  .errorPage {
+    :global {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
