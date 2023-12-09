@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/shophubEcommere/static/css/main.7af23ee9.css",
+    "main.js": "/shophubEcommere/static/js/main.2e7fb479.js",
+    "static/media/img1.webp": "/shophubEcommere/static/media/img1.ad3621ae0bee8d6b2acb.webp",
+    "static/media/img3.webp": "/shophubEcommere/static/media/img3.b26577e5965e42db40c9.webp",
+    "static/media/img2.webp": "/shophubEcommere/static/media/img2.0257150d6b6a12177f57.webp",
+    "static/media/notfound.png": "/shophubEcommere/static/media/notfound.2446749198c83be00345.png",
+    "static/media/loader.gif": "/shophubEcommere/static/media/loader.bcf81db1a3fe1b098b5f.gif",
+    "static/media/cart.png": "/shophubEcommere/static/media/cart.f04d7ce3c799d73fcd06.png",
+    "index.html": "/shophubEcommere/index.html",
+    "main.7af23ee9.css.map": "/shophubEcommere/static/css/main.7af23ee9.css.map",
+    "main.2e7fb479.js.map": "/shophubEcommere/static/js/main.2e7fb479.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7af23ee9.css",
+    "static/js/main.2e7fb479.js"
+  ]
+}
