@@ -7,7 +7,7 @@ A modern, responsive **E-Commerce frontend application** built using **React.js*
 **Frontend**
 
 ## 🌐 Deployed App
-- **Frontend:** [https://bishtgaurav0.github.io/](https://bishtgaurav0.github.io/)
+- **Frontend:** [https://bishtgaurav0.github.io/shophubEcommere/](https://bishtgaurav0.github.io/shophubEcommere/)
 
 ## 📁 Directory Structure
 
