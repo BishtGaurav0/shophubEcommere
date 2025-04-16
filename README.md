@@ -20,11 +20,7 @@ e-commerce/
 
 
 ## 📹 Video Walkthrough of the Project
-📽️ Coming soon!
-
-## 💻 Video Walkthrough of the Codebase
-📽️ Coming soon!
-
+![Image](https://github.com/user-attachments/assets/c250b67d-b2d3-42fd-b652-3beaececc943)
 ## ✨ Features
 - 🧾 Product listing page
 - 🛒 Shopping cart functionality
